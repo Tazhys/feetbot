@@ -34,16 +34,16 @@ export class Bot {
     const content = message.content.toLowerCase();
     console.log('Processing content:', content, 'isActive:', this.isActive);
 
-    if (content === 'feet pls') {
-      console.log('Feet pls command detected');
+    if (content === 'pls feet') {
+      console.log('Pls feet command detected');
       if (this.isActive && message.channel instanceof TextChannel) {
         console.log('Sending feet pic...');
         this.sendFeetPic(message.channel);
       } else {
         console.log('Bot not active or not a text channel');
       }
-    } else if (content === 'no feet pls') {
-      console.log('No feet pls command detected, deactivating bot');
+    } else if (content === 'pls stop') {
+      console.log('Pls stop command detected, deactivating bot');
       this.isActive = false;
     }
   }
