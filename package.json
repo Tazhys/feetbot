@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Tazhys/feetbot#readme",
   "description": "A Discord bot that sends feet pictures",
   "dependencies": {
+    "@google/genai": "^1.28.0",
     "axios": "^1.13.2",
     "discord.js": "^14.24.2",
     "dotenv": "^17.2.3",
