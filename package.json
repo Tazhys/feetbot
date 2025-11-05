@@ -1,0 +1,32 @@
+{
+  "name": "feetbot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tazhys/feetbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tazhys/feetbot/issues"
+  },
+  "homepage": "https://github.com/Tazhys/feetbot#readme",
+  "description": "A Discord bot that sends feet pictures",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "discord.js": "^14.24.2",
+    "dotenv": "^17.2.3",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "ts-node": "^10.9.2"
+  }
+}
